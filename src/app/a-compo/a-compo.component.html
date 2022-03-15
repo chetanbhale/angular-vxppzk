@@ -1,0 +1,22 @@
+<table>
+  <tr>
+    <th>Person Name</th>
+    <th>Age</th>
+    <th>Address</th>
+    <th>Status</th>
+  </tr>
+  <tr *ngFor="let alldata of data">
+    <td>
+      {{ alldata.personName }}
+    </td>
+    <td>
+      {{ alldata.age }}
+    </td>
+    <td>
+      {{ alldata.address }}
+    </td>
+    <td>
+      {{ alldata.status }}
+    </td>
+  </tr>
+</table>
